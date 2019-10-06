@@ -1,8 +1,12 @@
 import {combineReducers} from 'redux';
 import { QUESTION_ANSWER } from './actions'
+import { CHANGE_QUESTION} from './actions'
+import { SUBMIT } from './actions'
+import { INIT_QUESTIONS} from './actions'
 
 function score(state=0, action={}){
     switch(action.type) {
+
         default:
             return state;
     }
