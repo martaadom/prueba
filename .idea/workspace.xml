@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8802f777-abe2-4420-87cb-3217959d6df9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Answer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actionbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actionbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Answer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/ReduxProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ReduxProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Question.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,6 +75,8 @@
       <workItem from="1570100900593" duration="274000" />
       <workItem from="1570101923530" duration="939000" />
       <workItem from="1570177226084" duration="4477000" />
+      <workItem from="1570369485042" duration="257000" />
+      <workItem from="1570564236196" duration="3748000" />
     </task>
     <task id="LOCAL-00001" summary="tercer paso">
       <created>1570102573060</created>
@@ -78,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570102573061</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cuarto paso">
+      <created>1570369588362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570369588362</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tercer paso" />
-    <option name="LAST_COMMIT_MESSAGE" value="tercer paso" />
+    <MESSAGE value="cuarto paso" />
+    <option name="LAST_COMMIT_MESSAGE" value="cuarto paso" />
   </component>
 </project>
