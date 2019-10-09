@@ -2,11 +2,13 @@ import React from 'react';
 import Actionbar from "./Actionbar";
 import Content from "./Content";
 import Button from "./Button";
-export default class Game extends React.Component {     render() {
-    if (this.props.ﬁnished===false){
-        return (
+export default class Game extends React.Component {
+    render() {
+        if (this.props.ﬁnished===false){
+         return (
             <div>
                 <Content question={this.props.question}
+                         currentQuestion={this.props.currentQuestion}
                          onQuestionAnswer={this.props.onQuestionAnswer} />
                 <Actionbar currentQuestion={this.props.currentQuestion}
                            onChangeQuestion={this.props.onChangeQuestion}

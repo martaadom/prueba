@@ -6,7 +6,7 @@ import { INIT_QUESTIONS} from './actions'
 
 function score(state = 0, action = {}){
     switch(action.type) {
-        case SUBMIT: //tengo que evaluar las preguntas
+        case SUBMIT: // evaluar las preguntas
             var newstate = 0;
             action.payload.questions.map((question) => {
                 var q1 = question.answer.toLowerCase();

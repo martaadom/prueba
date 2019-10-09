@@ -16,3 +16,6 @@ export function submit(questions){
 export function initQuestions(questions) {
     return {type: INIT_QUESTIONS, payload: {questions}};
 }
+
+// las acciones son objetos Javascript que indican una intención de realizar algo y que llevan datos y tipos(si es necesario)
+//payload: datos, todoloque te bajas

@@ -11,7 +11,7 @@ export default class Content extends React.Component {     render() {
 
                 <div>
                     <input type="image" src={this.props.question.attachment.url} width="400" heigth="400"/>
-                    <p>{this.props.question.question}</p>
+                    <p> Question { this.props.currentQuestion + 1}: {this.props.question.question}</p>
                     <input type="text" value={this.props.question.userAnswer || ""} onChange={(e) => {
                         this.props.onQuestionAnswer(e.target.value);
                     }}/>
