@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8802f777-abe2-4420-87cb-3217959d6df9" name="Default Changelist" comment="">
+    <list default="true" id="8802f777-abe2-4420-87cb-3217959d6df9" name="Default Changelist" comment="cambios">
+      <change afterPath="$PROJECT_DIR$/src/Tips.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/ReduxProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ReduxProvider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +81,10 @@
       <workItem from="1570627437997" duration="3997000" />
       <workItem from="1570636051442" duration="69000" />
       <workItem from="1570636814510" duration="687000" />
-      <workItem from="1570638066059" duration="3247000" />
+      <workItem from="1570638066059" duration="3421000" />
+      <workItem from="1570703315410" duration="601000" />
+      <workItem from="1571124094492" duration="11504000" />
+      <workItem from="1571146329333" duration="4584000" />
     </task>
     <task id="LOCAL-00001" summary="tercer paso">
       <created>1570102573060</created>
@@ -99,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570568052775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="comprenderlo">
+      <created>1570644081021</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570644081021</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +137,7 @@
     <MESSAGE value="tercer paso" />
     <MESSAGE value="cuarto paso" />
     <MESSAGE value="Ya funciona casi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ya funciona casi" />
+    <MESSAGE value="comprenderlo" />
+    <option name="LAST_COMMIT_MESSAGE" value="comprenderlo" />
   </component>
 </project>

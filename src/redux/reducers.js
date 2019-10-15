@@ -1,4 +1,5 @@
 import {combineReducers} from 'redux';
+
 import { QUESTION_ANSWER } from './actions'
 import { CHANGE_QUESTION} from './actions'
 import { SUBMIT } from './actions'
@@ -9,18 +10,23 @@ function score(state = 0, action = {}){
         case SUBMIT: // evaluar las preguntas
             var newstate = 0;
             action.payload.questions.map((question) => {
-                var q1 = question.answer.toLowerCase();
+                var correcto = question.answer.toLowerCase();
                 if(question.userAnswer!==undefined){
-                    var q2 = question.userAnswer.toLowerCase();
+                    var respuesta = question.userAnswer.toLowerCase();
                 } else {
-                    var q2 = ""}
-                if(q1 === q2){
+                    var respuest = ""}
+                if(correcto === respuesta){
                     return newstate++;
                 } else {
-                    return;}});
+                    return;
+                        }
+            });
             return newstate;
         default:
-            return state;}}
+            return state;
+    }
+}
+
 function ﬁnished(state = false, action = {}) {
     switch(action.type) {
         case INIT_QUESTIONS:
@@ -30,30 +36,41 @@ function ﬁnished(state = false, action = {}) {
             var newstate = true;
             return newstate;
         default:
-            return state;}}
+            return state;
+    }
+}
+
 function currentQuestion(state = 0, action = {}) {
     switch(action.type) {
         case CHANGE_QUESTION:
-            var newstate=action.payload.index;
+            var newstate= action.payload.index;
             return newstate;
         default:
-            return state;}}
+            return state;
+    }
+}
+
 function questions(state = [], action = {}) {
     switch(action.type) {
         case INIT_QUESTIONS:
             var newstate = action.payload.questions;
             return newstate;
-        case QUESTION_ANSWER:
-            return state.map((question,i) => {
+        case QUESTION_ANSWER: // la parte del estado donde se almacena el array de preguntas actualizará la pregunta en la posición indicada (​action.payload.index​) para que contenga la respuesta introducida por el usuario (​action.payload.answer​).
+            return state.map((question,i) => { // El resto de preguntas (​action.payload.index !== i​) se mantienen igual.
                 return { ...question,
                     userAnswer: action.payload.index === i ?
-                        action.payload.answer : question.userAnswer}
-            });
+                                action.payload.answer : question.userAnswer}
+            })
         default:
-            return state; }}
+            return state;
+    }
+}
+
 const GlobalState = (combineReducers({
     score,
     ﬁnished,
     currentQuestion,
-    questions }));
+    questions
+}));
+
 export default GlobalState;

@@ -1,9 +1,12 @@
 .App {
   text-align: center;
+  background-color: #DDFFDD;
+  height: 100%;
 }
 
 .App-logo {
   height: 40vmin;
+
 }
 
 .App-header {
@@ -21,72 +24,83 @@
   color: #09d3ac;
 }
 
+
 .bSubmit{
   background-color: #ffb2ba;
   text-align: center;
-  width: 245px;
+  width: 120px;
   height: 45px;
-  border: 6px inset #D5D5D5;
-  margin: 0 0 6px 0;
-  padding: 0 0 0 2px;
-  font-family: "Times New Roman";
-  font-size: 20px;
+  border-color: black;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Consolas";
+  font-size: 15px;
   color: #0a0a0a}
 
 .bNext{
   background-color: #ffb2ba;
   text-align: center;
-  width: 245px;
+  width: 120px;
   height: 45px;
-  border: 6px inset #D5D5D5;
-  margin: 0 0 6px 0;
-  padding: 0 0 0 2px;
-  font-family: "Times New Roman";
-  font-size: 20px;
+  border-color: black;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  font-family: "Consolas";
+  font-size: 15px;
   color: #0a0a0a}
 
 .bPrevious{
   text-align: center;
   background-color: #ffb2ba;
-  width: 245px;
+  width: 120px;
   height: 45px;
-  border: 6px inset #D5D5D5;
-  margin: 0 0 6px 0;
-  padding: 0 0 0 2px;
-  font-family: "Times New Roman";
-  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: black;
+  border-radius: 6px;
+  font-family: "Consolas";
+  font-size: 15px;
   color: #0a0a0a}
 
 .bReset{
   text-align: center;
   background-color: #ffff00;
-  width: 75px;
-  height: 45px;
-  border: 4px inset #ffff00;
+  width: 60px;
+  height: 30px;
+  border-color: black;
+  border-radius: 3px;
   margin: 0 0 6px 0;
   padding: 0 0 0 2px;
-  font-family: "Times New Roman";
-  font-size: 20px;
+  font-family: "Consolas";
+  font-size: 15px;
   ﬂoat: right;
   color: #0a0a0a}
 
 .titulo{
   text-align: center;
-  font-family: "Times New Roman";
-  font-size: 54px;
+  font-family: "Consolas";
+  font-size: 40px;
   color: #0a0a0a;
-  background-color: #ffe0eb;
-  border: 2px inset #0a0a0a;
-  margin: 0 0 60px 0;}
+  background-color: #ffb2ba;
+
+}
 
 .score{
-  font-size: 38px;}
+  font-size: 40px;}
 
 .congrats{
-  font-family: "Times New Roman";
-  font-size: 38px;}
+  font-family: "Consolas";
+  font-size: 35px;}
 
 .resultado{
-  font-family: "Times New Roman";
-  font-size: 45px;
+  font-family: "Consolas";
+  font-size: 40px;
   color: #282c34;}
+
+.cuerpo{
+  text-align: center;
+}
+

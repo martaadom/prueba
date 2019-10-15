@@ -1,7 +1,10 @@
 import React from 'react';
-export default class Navbar extends React.Component {     render() {
+import './App.css'
+export default class Navbar extends React.Component {
+    render() {
     return (
-        <h1 class="titulo">QUIZ GAME</h1>
+
+            <h1 class="titulo">Quiz Game</h1>
     );
 }
 }

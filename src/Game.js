@@ -2,11 +2,13 @@ import React from 'react';
 import Actionbar from "./Actionbar";
 import Content from "./Content";
 import Button from "./Button";
+
 export default class Game extends React.Component {
-    render() {
+    render() { //return (<div> Mi primer componente</div>);
         if (this.props.ﬁnished===false){
          return (
-            <div>
+             <div>{/* this.props.question.question </div>
+             <input type..... value......*/}
                 <Content question={this.props.question}
                          currentQuestion={this.props.currentQuestion}
                          onQuestionAnswer={this.props.onQuestionAnswer} />

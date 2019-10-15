@@ -1,9 +1,9 @@
 import { Provider } from 'react-redux';
 import GlobalState from './reducers';
 import { createStore } from 'redux';
-import { questions } from "../assets/mock-data";
 import React from 'react';
 import App from '../App';
+import { questions } from "../assets/mock-data"; //ya tenemos acceso a questions desde nuestro componente
 
 
 export default class ReduxProvider extends React.Component {

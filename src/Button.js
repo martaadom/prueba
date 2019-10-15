@@ -42,7 +42,7 @@ export default class Button extends React.Component {     constructor(props){
                             class="bSubmit">{this.props.name}
                     </button>
                 );
-            case "Reset":
+            case "Reset": //no nos funciona el reset
                 return (
                     <button type="submit" onClick={()=>this.props.onReset()} value={this.props.name}
                             class="bReset">{this.props.name}

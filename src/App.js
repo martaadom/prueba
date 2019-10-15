@@ -6,13 +6,43 @@ import { questionAnswer } from './redux/actions';
 import { changeQuestion } from './redux/actions';
 import { submit } from './redux/actions';
 import { initQuestions } from './redux/actions';
-import Navbar from "./Navbar"; class App extends Component {
+import Navbar from "./Navbar";
+
+
+/*function App(props){
+    console.log(props)
+
+    return(
+     <div className="App">
+         <Game   currentQuestion={props.currentQuestion}
+                 lengthQuestions={props.questions.length}
+                 ﬁnished={props.ﬁnished}
+                 score={props.score}
+                 questions={props.questions}
+                 question={props.questions[props.currentQuestion]}
+
+                 onChangeQuestion={(index)=>{
+                     props.dispatch(changeQuestion(index))
+                 }}
+                 onSubmit={(questions)=>{
+                     props.dispatch(submit(questions))
+                 }}
+                 onQuestionAnswer={(answer)=>{
+                     props.dispatch(questionAnswer(this.props.currentQuestion, answer))
+                 }}
+         />
+     </div>
+ );
+}*/
+
+
+class App extends Component {
     constructor(props){
         super(props);
         this.downloadQuestions = this.downloadQuestions.bind(this);
     }
     downloadQuestions(){
-        fetch("https://quiz2019.herokuapp.com/api/quizzes/random10wa?token=dbd0468cf07f1db28792")
+        fetch("https://quiz.dit.upm.es/api/quizzes/random10wa?token=c408be74597939371f45")
             .then(function(response){
                 return response.json();
             })
@@ -50,8 +80,11 @@ import Navbar from "./Navbar"; class App extends Component {
                       }}
                 />
             </div>);}}
+
 function mapStateToProps(state){
     return{
         ...state
-    };}
+    };
+}
+
 export default connect(mapStateToProps)(App);
