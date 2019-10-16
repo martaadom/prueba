@@ -2,6 +2,7 @@ import React from 'react';
 import Actionbar from "./Actionbar";
 import Content from "./Content";
 import Button from "./Button";
+import Author from "./Author";
 
 export default class Game extends React.Component {
     render() { //return (<div> Mi primer componente</div>);
@@ -18,7 +19,8 @@ export default class Game extends React.Component {
                            onReset={this.props.onReset}
                            questions={this.props.questions}
                            lengthQuestions={this.props.lengthQuestions} />
-            </div>
+                 <Author question={this.props.question} />
+             </div>
         );
     } else {
         return(
