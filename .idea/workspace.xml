@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8802f777-abe2-4420-87cb-3217959d6df9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Author.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actionbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actionbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tips.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tips.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +83,9 @@
       <workItem from="1571124094492" duration="11504000" />
       <workItem from="1571146329333" duration="5045000" />
       <workItem from="1571154253763" duration="587000" />
-      <workItem from="1571256043388" duration="2560000" />
+      <workItem from="1571256043388" duration="3144000" />
+      <workItem from="1571303184346" duration="1148000" />
+      <workItem from="1571306495985" duration="4441000" />
     </task>
     <task id="LOCAL-00001" summary="tercer paso">
       <created>1570102573060</created>
@@ -117,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571151353908</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="con el author">
+      <created>1571258661339</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571258661339</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +154,7 @@
     <MESSAGE value="Ya funciona casi" />
     <MESSAGE value="comprenderlo" />
     <MESSAGE value="cambios" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios" />
+    <MESSAGE value="con el author" />
+    <option name="LAST_COMMIT_MESSAGE" value="con el author" />
   </component>
 </project>

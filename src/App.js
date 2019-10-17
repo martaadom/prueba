@@ -14,6 +14,9 @@ import Navbar from "./Navbar";
 
     return(
      <div className="App">
+         <div className={"App"}>
+             <Navbar/>
+
          <Game   currentQuestion={props.currentQuestion}
                  lengthQuestions={props.questions.length}
                  ﬁnished={props.ﬁnished}
@@ -31,6 +34,7 @@ import Navbar from "./Navbar";
                      props.dispatch(questionAnswer(this.props.currentQuestion, answer))
                  }}
          />
+         </div>
      </div>
  );
 }*/
@@ -48,17 +52,18 @@ class App extends Component {
             })
             .then(questionsDownloaded => {
                 this.props.dispatch(initQuestions(questionsDownloaded));
-                console.log("Ver si cambian preguntas");
                 console.log(questionsDownloaded);
             });
     }
     componentDidMount(){ //Lo llamo desde aqui para que solo se ejecute una vez
         this.downloadQuestions();
         setTimeout(()=> this.props.dispatch(submit(this.props.questions)),600000);
-        setTimeout(()=> alert("Queda un minuto"),540000);}     render() {
-        console.log(this.props.ﬁnished)
+        setTimeout(()=> alert("Queda un minuto"),540000);}
+
+        render() {
+        console.log(this.props.ﬁnished) //?????
         return (
-            <div>
+            <div className={"App"}>
                 <Navbar/>
                 <Game currentQuestion={this.props.currentQuestion}
                       lengthQuestions={this.props.questions.length}

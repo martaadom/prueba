@@ -12,7 +12,11 @@ export default class Game extends React.Component {
              <input type..... value......*/}
                 <Content question={this.props.question}
                          currentQuestion={this.props.currentQuestion}
-                         onQuestionAnswer={this.props.onQuestionAnswer} />
+                         onQuestionAnswer={this.props.onQuestionAnswer}
+                         onChangeQuestion={this.props.onChangeQuestion}
+                         onSubmit={this.props.onSubmit}
+                         questions={this.props.questions}
+                         lengthQuestions={this.props.lengthQuestions} />
                 <Actionbar currentQuestion={this.props.currentQuestion}
                            onChangeQuestion={this.props.onChangeQuestion}
                            onSubmit={this.props.onSubmit}

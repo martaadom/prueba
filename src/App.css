@@ -2,6 +2,8 @@
   text-align: center;
   background-color: #DDFFDD;
   height: 100%;
+  border-style: double;
+  border-width: 8px;
 }
 
 .App-logo {
@@ -45,9 +47,7 @@
   height: 45px;
   border-color: black;
   border-radius: 6px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
+  margin-left: 100px;
   font-family: "Consolas";
   font-size: 15px;
   color: #0a0a0a}
@@ -57,8 +57,7 @@
   background-color: #ffb2ba;
   width: 120px;
   height: 45px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-right: 100px;
   border-color: black;
   border-radius: 6px;
   font-family: "Consolas";
@@ -80,12 +79,16 @@
   color: #0a0a0a}
 
 .titulo{
-  text-align: center;
-  font-family: "Consolas";
-  font-size: 40px;
-  color: #0a0a0a;
-  background-color: #ffb2ba;
-
+    width:100%;
+    text-align: center;
+    font-family: "Consolas";
+    font-size: 40px;
+    color: #0a0a0a;
+    background-color: #ffb2ba;
+    marin: 10px 0 20px;
+    line-height: 60px;
+    font-wight:normal;
+    text-trasform:uppercase;
 }
 
 .score{
@@ -101,9 +104,16 @@
   color: #282c34;}
 
 .cuerpo{
-  text-align: center;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+}
+.cuerpoTotal{
+
+
 }
 
 .Author{
-  text-align: center;
+  text-align: left;
 }
