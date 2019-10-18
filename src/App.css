@@ -104,16 +104,23 @@
   color: #282c34;}
 
 .cuerpo{
+  display: flex;
   flex: 1;
   flex-direction: row;
   justify-content: center;
-  align-content: space-around;
+  align-items: center;
 }
-.cuerpoTotal{
-
-
+.cargando{
+  text-align: center;
 }
 
 .Author{
-  text-align: left;
+  text-align: right;
+}
+
+.video{
+  display: flex;
+  flex:1;
+  align-self: flex-start;
+
 }

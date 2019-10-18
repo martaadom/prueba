@@ -1,5 +1,4 @@
 import {combineReducers} from 'redux';
-
 import { QUESTION_ANSWER } from './actions'
 import { CHANGE_QUESTION} from './actions'
 import { SUBMIT } from './actions'
@@ -9,17 +8,15 @@ function score(state = 0, action = {}){
     switch(action.type) {
         case SUBMIT: // evaluar las preguntas
             var newstate = 0;
-            action.payload.questions.map((question) => {
+            action.payload.questions.forEach((question,index) => {
                 var correcto = question.answer.toLowerCase();
                 if(question.userAnswer!==undefined){
                     var respuesta = question.userAnswer.toLowerCase();
                 } else {
-                    var respuest = ""}
+                    var respuesta = ""}
                 if(correcto === respuesta){
-                    return newstate++;
-                } else {
-                    return;
-                        }
+                     newstate++;
+                }
             });
             return newstate;
         default:

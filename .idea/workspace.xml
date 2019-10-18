@@ -6,10 +6,10 @@
       <change beforePath="$PROJECT_DIR$/src/Actionbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actionbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tips.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tips.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/ReduxProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ReduxProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,9 @@
       <workItem from="1571154253763" duration="587000" />
       <workItem from="1571256043388" duration="3144000" />
       <workItem from="1571303184346" duration="1148000" />
-      <workItem from="1571306495985" duration="4441000" />
+      <workItem from="1571306495985" duration="4563000" />
+      <workItem from="1571342198521" duration="579000" />
+      <workItem from="1571387344876" duration="7288000" />
     </task>
     <task id="LOCAL-00001" summary="tercer paso">
       <created>1570102573060</created>
@@ -129,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571258661339</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="casi acabado">
+      <created>1571310991843</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571310991844</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +164,7 @@
     <MESSAGE value="comprenderlo" />
     <MESSAGE value="cambios" />
     <MESSAGE value="con el author" />
-    <option name="LAST_COMMIT_MESSAGE" value="con el author" />
+    <MESSAGE value="casi acabado" />
+    <option name="LAST_COMMIT_MESSAGE" value="casi acabado" />
   </component>
 </project>
