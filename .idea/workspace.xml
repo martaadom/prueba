@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8802f777-abe2-4420-87cb-3217959d6df9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actionbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actionbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tips.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tips.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/ReduxProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ReduxProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers.js" afterDir="false" />
-    </list>
+    <list default="true" id="8802f777-abe2-4420-87cb-3217959d6df9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +78,7 @@
       <workItem from="1571303184346" duration="1148000" />
       <workItem from="1571306495985" duration="4563000" />
       <workItem from="1571342198521" duration="579000" />
-      <workItem from="1571387344876" duration="7288000" />
+      <workItem from="1571387344876" duration="7390000" />
     </task>
     <task id="LOCAL-00001" summary="tercer paso">
       <created>1570102573060</created>
@@ -138,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571310991844</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="podemos subirlo asi">
+      <created>1571396137062</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571396137062</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +163,7 @@
     <MESSAGE value="cambios" />
     <MESSAGE value="con el author" />
     <MESSAGE value="casi acabado" />
-    <option name="LAST_COMMIT_MESSAGE" value="casi acabado" />
+    <MESSAGE value="podemos subirlo asi" />
+    <option name="LAST_COMMIT_MESSAGE" value="podemos subirlo asi" />
   </component>
 </project>
