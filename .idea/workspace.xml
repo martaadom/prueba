@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8802f777-abe2-4420-87cb-3217959d6df9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/00datos.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Actionbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actionbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +86,8 @@
       <workItem from="1571396585342" duration="47000" />
       <workItem from="1571407716571" duration="743000" />
       <workItem from="1571414911781" duration="1210000" />
-      <workItem from="1571479281211" duration="193000" />
+      <workItem from="1571479281211" duration="338000" />
+      <workItem from="1571479776498" duration="733000" />
     </task>
     <task id="LOCAL-00001" summary="tercer paso">
       <created>1570102573060</created>
@@ -153,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571396196140</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ENTREGAR ASI">
+      <created>1571479523409</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571479523409</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +187,7 @@
     <MESSAGE value="con el author" />
     <MESSAGE value="casi acabado" />
     <MESSAGE value="podemos subirlo asi" />
-    <option name="LAST_COMMIT_MESSAGE" value="podemos subirlo asi" />
+    <MESSAGE value="ENTREGAR ASI" />
+    <option name="LAST_COMMIT_MESSAGE" value="ENTREGAR ASI" />
   </component>
 </project>

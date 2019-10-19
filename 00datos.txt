@@ -1,0 +1,7 @@
+MARTA DOMINGUEZ MORAGA
+PAULA HUERTAS SANCHEZ-CABEZUDO
+
+MEJORAS:
+-Personalización de los estilos (CSS, animaciones, diseño original, spinner, etc.). Sólo se valorará si se estima que el alumno ha invertido una cantidad de esfuerzo significativa.
+-Botón de reset que pida un conjunto nuevo de preguntas al servidor y reinicie el juego.
+-Cuenta atrás que limite el tiempo que tiene el usuario para responder las preguntas y termine el juego si se acaba el tiempo.
