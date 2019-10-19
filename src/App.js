@@ -70,10 +70,8 @@ class App extends Component {
                 return (
                     <div className={"cargando"}>
                         <h1>CARGANDO</h1>
-                        <h1> Darle al play del cronómetro al empezar el juego</h1>
                     </div>
                 )
-                //setTimeout(()=> this.props.dispatch(submit(this.props.question ===undefined)),2000);
             } else {
                 return (
                     <div className={"App"}>
